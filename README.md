@@ -2,6 +2,8 @@
 
 > A Vue.js project
 
+You can see the result at https://adrienredon.com
+
 ## Build Setup
 
 ``` bash
