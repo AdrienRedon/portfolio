@@ -1,0 +1,88 @@
+<template>
+    <a :href="href" @click="scroll"><span></span>Scroll</a>
+</template>
+
+<script>
+    import jquery from 'jquery';
+
+    export default {
+        props: ['href'],
+        methods: {
+            scroll (event) {
+                event.preventDefault();
+                jquery('html, body').animate({
+                    scrollTop: jquery(this.href).offset().top - 60
+                }, 750);
+            }
+        }
+    }
+</script>
+
+<style scoped>
+    a {
+        cursor: pointer;
+        position: relative;
+        bottom: 20px;
+        z-index: 2;
+        display: inline-block;
+        color: #fff;
+        font : normal 400 20px/1 'Josefin Sans', sans-serif;
+        letter-spacing: .1em;
+        text-decoration: none;
+        transition: opacity .3s;
+    }
+
+    @media screen and (min-width: 700px) {
+        a:hover {
+            opacity: .5;
+        }
+    }
+
+    a {
+        padding-top: 70px;
+    }
+
+    a span {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        width: 24px;
+        height: 24px;
+        margin-left: -12px;
+        border-left: 1px solid #fff;
+        border-bottom: 1px solid #fff;
+        -webkit-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+        -webkit-animation: sdb05 1.5s infinite;
+        animation: sdb05 1.5s infinite;
+        box-sizing: border-box;
+    }
+
+    @-webkit-keyframes sdb05 {
+        0% {
+            -webkit-transform: rotate(-45deg) translate(0, 0);
+            opacity: 0;
+        }
+        50% {
+            opacity: 1;
+        }
+        100% {
+            -webkit-transform: rotate(-45deg) translate(-20px, 20px);
+            opacity: 0;
+        }
+    }
+
+    @keyframes sdb05 {
+        0% {
+            transform: rotate(-45deg) translate(0, 0);
+            opacity: 0;
+        }
+        50% {
+            opacity: 1;
+        }
+        100% {
+            transform: rotate(-45deg) translate(-20px, 20px);
+            opacity: 0;
+        }
+    }
+</style>
