@@ -2,31 +2,30 @@
     <portfolio-section>
         <h2>Portfolio</h2>
         <div class="works">
-            <div class="work">
-                <img src="/assets/img/cpe-calendar.png">
-            </div>
-            <div class="work">
-                <img src="/assets/img/ludofactory.png">
-            </div>
-            <div class="work">
-                <img src="/assets/img/relaxapic.png">
-            </div>
-            <div class="work">
-                <img src="/assets/img/steadytrip.png">
-            </div>
-            <div class="work">
-                <img src="/assets/img/thelatest.png">
-            </div>
+            <work v-for="work in works" :work="work"></work>
         </div>
     </portfolio-section>
 </template>
 
 <script>
     import PortfolioSection from './PortfolioSection.vue';
+    import Work from './Work.vue';
 
     export default {
         components: {
             PortfolioSection,
+            Work,
+        },
+        data () {
+            return {
+                works: [
+                    {img: 'cpe-calendar', description: 'Java, MySQL'},
+                    {img: 'ludofactory', description: 'Ruby, Ruby on Rails'},
+                    {img: 'relaxapic', description: 'PHP, MySQL, Javascript'},
+                    {img: 'steadytrip', description: 'C#, NodeJS, VueJS, SQL Server'},
+                    {img: 'thelatest', description: 'PHP, Symfony 2, Angular'},
+                ]
+            }
         }
     }
 </script>
@@ -41,8 +40,5 @@
         flex-wrap: wrap;
         justify-content: space-around;
     }
-    .work img {
-        height: 320px;
-        width: 560px;
-    }
+    
 </style>
