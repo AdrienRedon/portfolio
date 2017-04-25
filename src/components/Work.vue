@@ -1,7 +1,10 @@
 <template>
     <div class="work">
         <img :src="path">
-        <p class="description">{{ work.description }}</p>
+        <div class="description">
+            <p>{{ work.description }}</p>
+            <p>{{ work.technologies }}</p>
+        </div>
     </div>
 </template>
 
@@ -41,16 +44,23 @@
     }
     .description {
         position: absolute;
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         top: 0;
         height: 100%;
         width: 100%;
-        line-height: 320px;
         margin: 0;
+        padding: 10px;
         text-align: center;
         z-index: 2;
         opacity: 0;
         color: white;
-        background-color: rgba(12,12,12, .5);
+        background-color: rgba(12,12,12, .6);
         -moz-transition: all .3s;
         -webkit-transition: all .3s;
         transition: all .3s;
