@@ -21,8 +21,8 @@
 
 <script>
     import axios from 'axios';
-    import PortfolioSection from './PortfolioSection.vue';
-    import Response from './Response.vue';
+    import PortfolioSection from '../components/PortfolioSection.vue';
+    import Response from '../components/Response.vue';
 
     export default {
         data () {

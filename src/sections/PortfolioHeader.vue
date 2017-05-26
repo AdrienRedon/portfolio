@@ -11,7 +11,7 @@
 
 <script>
     import moment from 'moment';
-    import ScrollButton from './ScrollButton.vue';
+    import ScrollButton from '../components/ScrollButton.vue';
 
     export default {
         components: {

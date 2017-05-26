@@ -9,11 +9,11 @@
 </template>
 
 <script>
-  import About from './components/About.vue';
-  import Contact from './components/Contact.vue';
+  import About from './sections/About.vue';
+  import Contact from './sections/Contact.vue';
   import Navbar from './components/Navbar.vue';
-  import Portfolio from './components/Portfolio.vue';
-  import PortfolioHeader from './components/PortfolioHeader.vue';
+  import Portfolio from './sections/Portfolio.vue';
+  import PortfolioHeader from './sections/PortfolioHeader.vue';
 
   export default {
     name: 'app',

@@ -23,7 +23,7 @@
 
 <script>
     import moment from 'moment';
-    import PortfolioSection from './PortfolioSection.vue';
+    import PortfolioSection from '../components/PortfolioSection.vue';
     import Skills from './Skills.vue';
 
     export default {

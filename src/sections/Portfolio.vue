@@ -8,8 +8,8 @@
 </template>
 
 <script>
-    import PortfolioSection from './PortfolioSection.vue';
-    import Work from './Work.vue';
+    import PortfolioSection from '../components/PortfolioSection.vue';
+    import Work from '../components/Work.vue';
 
     export default {
         components: {
