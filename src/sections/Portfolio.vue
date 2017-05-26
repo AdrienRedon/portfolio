@@ -54,6 +54,11 @@
                         description: 'Développement d\'une application mobile pour la gestion de club sportif lors d\'un hackathon de 24h', 
                         technologies: 'React Native, NodeJS, Hapi, PostgreSQL'
                     },
+                    {
+                        img: 'vue-me', 
+                        description: 'Développement d\'un assistant personnel avec reconnaissance vocale et analyse contextuelle lors d\'un hackathon de 24h', 
+                        technologies: 'VueJS, api.ai, Speech Recognition, Speech Synthesis'
+                    },
                 ]
             }
         }
