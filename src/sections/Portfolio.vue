@@ -32,7 +32,7 @@
                     {
                         img: 'relaxapic', 
                         description: 'Développement d\'un site web pour les professionnels d\'acupuncture', 
-                        technologies: 'PHP, MySQL, Javascript'
+                        technologies: 'PHP, MySQL, Javascript, jQuery'
                     },
                     {
                         img: 'steadytrip', 
@@ -48,6 +48,11 @@
                         img: 'uml-generator', 
                         description: 'Développement d\'un outil pour réaliser des diagrammes MCD', 
                         technologies: 'VueJS, jQuery'
+                    },
+                    {
+                        img: 'matchpoint', 
+                        description: 'Développement d\'une application mobile pour la gestion de club sportif lors d\'un hackathon de 24h', 
+                        technologies: 'React Native, NodeJS, Hapi, PostgreSQL'
                     },
                 ]
             }
