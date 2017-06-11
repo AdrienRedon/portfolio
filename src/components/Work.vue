@@ -29,8 +29,9 @@
 
     .work img {
         z-index: 1;
-        height: 100%;
-        width: 100%;
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: cover;
         -moz-transition: all .3s;
         -webkit-transition: all .3s;
         transition: all .3s;
