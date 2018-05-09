@@ -13,7 +13,7 @@
         props: ['work'],
         computed: {
             path () {
-                return `/assets/img/${this.work.img}.png`;
+                return `/assets/img/${this.work.img}`;
             }
         }
     }
