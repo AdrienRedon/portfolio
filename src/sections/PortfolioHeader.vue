@@ -2,8 +2,8 @@
     <header>
         <h1>
             Adrien REDON – {{ age }} ans<br>
-            Développeur Web et Mobile depuis {{ experience }} ans<br>
-            Actuellement apprenti ingénieur
+            Développeur Web depuis {{ experience }} ans<br>
+            Actuellement Lead tech front
         </h1>
         <scroll-button href="#about" class="button"></scroll-button>
     </header>
@@ -24,13 +24,6 @@
             experience () {
                 return moment().diff('2011-07-15', 'years');
             },
-            poste () {
-                if (moment().isBetween('2014-09-08', '2017-09-08')) {
-                    return 'apprenti ingénieur';
-                } else {
-                    return 'ingénieur';
-                }
-            }
         }
     }
 </script>
