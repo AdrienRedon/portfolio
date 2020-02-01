@@ -3,7 +3,7 @@
         <h1>
             Adrien REDON – {{ age }} ans<br>
             Développeur Web depuis {{ experience }} ans<br>
-            Actuellement Lead tech front
+            Actuellement Lead tech front à Geolid
         </h1>
         <scroll-button href="#about" class="button"></scroll-button>
     </header>
