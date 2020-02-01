@@ -4,10 +4,10 @@
         <div class="container">
             <div class="flex">
                 <h3>Adrien Redon, {{ age }} ans</h3>
-                <h3>Développeur Web et Mobile</h3>
-                <p>Bonjour, je suis de Lyon et je serai prochainement diplomé Ingénieur en informatique. Je suis actuellement en train de terminer mon cursus en alternance à Orange.</p>
+                <h3>Développeur Web</h3>
+                <p>Bonjour, je suis originaire de la région lyonnaise et diplomé Ingénieur en informatique à l'école CPE Lyon. Après une expérience de 3 ans en tant que développeur web au sein de la DSI d'Orange, je suis aujourd'hui Lead tech front à Geolid.</p>
                 <p>Passionné par les nouvelles technologies, je prends plaisir à me tenir à jour dans ma veille. Smart Home, VR / AR, AI sont des sujets sur lesquels je garde un oeil.</p>
-                <p>J'aime aussi voyager et je pratique des sports de glisse comme le snowboard, le skateboard et le surf.</p>
+                <p>J'aime aussi voyager et je pratique de nombreux sports (escalade, triathlon, snowboard, yoga, etc...)</p>
                 <p>Ce portfolio a pour but de présenter certaines de mes réalisations. Vous pouvez également visualiser mon CV et le télécharger.</p>
             </div>
             <div>
