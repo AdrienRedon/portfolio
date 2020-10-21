@@ -3,7 +3,7 @@
         <h1>
             Adrien REDON – {{ age }} ans<br>
             Développeur Web depuis {{ experience }} ans<br>
-            Actuellement Lead tech front à Geolid
+            Actuellement Lead Développeur Angular à Notilo Plus
         </h1>
         <scroll-button href="#about" class="button"></scroll-button>
     </header>
